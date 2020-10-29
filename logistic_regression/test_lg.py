@@ -23,6 +23,6 @@ predicted = reg.predict(X_test)
 
 def accuracy(y_hat,y):
     return (np.sum(y_hat == y)/len(y))
-
+print('testing....')
 
 print(f'The accuracy is {accuracy(predicted,y_test)}')
