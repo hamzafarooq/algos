@@ -1,4 +1,4 @@
-from sklearn.datasets.samples_generator import make_blobs
+from sklearn.datasets import make_blobs
 X_actual, y = make_blobs(n_samples=1000, centers=5, random_state=101)
 
 from kmeans import Kmeansfromscratch
@@ -9,7 +9,7 @@ import pandas as pd
 from scipy.spatial import distance
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
-import math
+#import math
 
 
 
